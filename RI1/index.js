@@ -1,130 +1,144 @@
-// Objetos representando os Vingadores e Thanos
 const homemDeFerro = {
-  nome: 'Homem de Ferro',
-  poder: 'Armadura Tecnológica',
-  forca: 80,
-  carisma: 95,
-  resistencia: 85,
+  nome: 'Tony Stark',
+  codinome: 'Homem de Ferro',
+  armaPrincipal: 'Armadura Mark L',
+  armaSecundaria: 'Repulsores',
   velocidade: 90,
-  inteligencia: 95,
+  forca: 80,
+  resistencia: 85,
   descricao: function() {
-    return `Eu sou o ${this.nome}, meu poder é ${this.poder}.`;
+    return "Nome do personagem: " + this.nome + "\n"
+      + "Codinome do personagem: " + this.codinome + "\n"
+      + "Arma principal: " + this.armaPrincipal + "\n"
+      + "Arma secundaria: " + this.armaSecundaria + "\n"
+      + "Nível de força: " + this.forca + "\n"
+      + "Nível de velocidade: " + this.velocidade + "\n"
+      + "Nível de resistência: " + this.resistencia;
   }
 };
 
 const capitaoAmerica = {
-  nome: 'Capitão América',
-  poder: 'Soro do Super Soldado e Escudo de Vibranium',
-  forca: 70,
-  carisma: 98,
-  resistencia: 80,
+  nome: 'Steve Rogers',
+  codinome: 'Capitão América',
+  armaPrincipal: 'Escudo de Vibranium',
+  armaSecundaria: '',
   velocidade: 75,
-  inteligencia: 75,
+  forca: 70,
+  resistencia: 80,
   descricao: function() {
-    return `Sou o ${this.nome}. ${this.poder} me dão vantagem.`;
+    return "Nome do personagem: " + this.nome + "\n"
+      + "Codinome do personagem: " + this.codinome + "\n"
+      + "Arma principal: " + this.armaPrincipal + "\n"
+      + "Arma secundaria: " + this.armaSecundaria + "\n"
+      + "Nível de força: " + this.forca + "\n"
+      + "Nível de velocidade: " + this.velocidade + "\n"
+      + "Nível de resistência: " + this.resistencia;
   }
 };
 
 const thor = {
-  nome: 'Thor',
-  poder: 'Deus do Trovão e Mjolnir',
-  forca: 95,
-  carisma: 80,
-  resistencia: 95,
+  nome: 'Thor Odinson',
+  codinome: 'Thor',
+  armaPrincipal: 'Mjolnir',
+  armaSecundaria: 'Stormbreaker',
   velocidade: 85,
-  inteligencia: 60,
+  forca: 95,
+  resistencia: 95,
   descricao: function() {
-    return `Eu sou ${this.nome}, o ${this.poder}!`;
+    return "Nome do personagem: " + this.nome + "\n"
+      + "Codinome do personagem: " + this.codinome + "\n"
+      + "Arma principal: " + this.armaPrincipal + "\n"
+      + "Arma secundaria: " + this.armaSecundaria + "\n"
+      + "Nível de força: " + this.forca + "\n"
+      + "Nível de velocidade: " + this.velocidade + "\n"
+      + "Nível de resistência: " + this.resistencia;
   }
 };
 
 const viuvaNegra = {
-  nome: 'Viúva Negra',
-  poder: 'Artes Marciais e Espionagem',
-  forca: 40,
-  carisma: 85,
-  resistencia: 50,
+  nome: 'Natasha Romanoff',
+  codinome: 'Viúva Negra',
+  armaPrincipal: 'Pistola',
+  armaSecundaria: 'Viuva Bites',
   velocidade: 60,
-  inteligencia: 85,
+  forca: 40,
+  resistencia: 50,
   descricao: function() {
-    return `Sou a ${this.nome}, especialista em ${this.poder}.`;
+    return "Nome do personagem: " + this.nome + "\n"
+      + "Codinome do personagem: " + this.codinome + "\n"
+      + "Arma principal: " + this.armaPrincipal + "\n"
+      + "Arma secundaria: " + this.armaSecundaria + "\n"
+      + "Nível de força: " + this.forca + "\n"
+      + "Nível de velocidade: " + this.velocidade + "\n"
+      + "Nível de resistência: " + this.resistencia;
   }
 };
 
 const hulk = {
-  nome: 'Hulk',
-  poder: 'Força Bruta e Raiva Infinita',
-  forca: 100,
-  carisma: 30,
-  resistencia: 100,
+  nome: 'Bruce Banner',
+  codinome: 'Hulk',
+  armaPrincipal: 'Força Bruta',
+  armaSecundaria: '',
   velocidade: 70,
-  inteligencia: 40, // Bruce Banner seria 100
+  forca: 100,
+  resistencia: 100,
   descricao: function() {
-    return `HULK ESMAGA! (${this.nome})`;
+    return "Nome do personagem: " + this.nome + "\n"
+      + "Codinome do personagem: " + this.codinome + "\n"
+      + "Arma principal: " + this.armaPrincipal + "\n"
+      + "Arma secundaria: " + this.armaSecundaria + "\n"
+      + "Nível de força: " + this.forca + "\n"
+      + "Nível de velocidade: " + this.velocidade + "\n"
+      + "Nível de resistência: " + this.resistencia;
   }
 };
 
 const thanos = {
   nome: 'Thanos',
-  poder: 'Titã Louco com Joias do Infinito',
-  forca: 98,
-  carisma: 70,
-  resistencia: 98,
+  codinome: 'O Titã Louco',
+  armaPrincipal: 'Manopla do Infinito',
+  armaSecundaria: 'Espada Dupla',
   velocidade: 80,
-  inteligencia: 90,
+  forca: 98,
+  resistencia: 98,
   descricao: function() {
-    return `Eu sou ${this.nome}. Inevitável.`;
+    return "Nome do personagem: " + this.nome + "\n"
+      + "Codinome do personagem: " + this.codinome + "\n"
+      + "Arma principal: " + this.armaPrincipal + "\n"
+      + "Arma secundaria: " + this.armaSecundaria + "\n"
+      + "Nível de força: " + this.forca + "\n"
+      + "Nível de velocidade: " + this.velocidade + "\n"
+      + "Nível de resistência: " + this.resistencia;
   }
 };
 
-// Armazenamento em Array
 const personagens = [homemDeFerro, capitaoAmerica, thor, viuvaNegra, hulk];
 
-const atributos = ['forca', 'carisma', 'resistencia', 'velocidade', 'inteligencia'];
+const atributos = ['forca', 'velocidade', 'resistencia'];
 
 console.log('=== COMPARAÇÃO DE ATRIBUTOS: VINGADORES vs THANOS ===\n');
 
-// Comparação
 for (let i = 0; i < personagens.length; i++) {
   const heroi = personagens[i];
-  
-  console.log(`Comparando ${heroi.nome} e ${thanos.nome}:`);
-  console.log(`${heroi.descricao()}`);
-  console.log(`${thanos.descricao()}`);
-  
-  let stringHeroi = `${heroi.nome} (`;
-  let stringThanos = `${thanos.nome} (`;
-  
-  for (let j = 0; j < atributos.length; j++) {
-      const attr = atributos[j];
-      const formatAttr = attr.charAt(0).toUpperCase() + attr.slice(1);
-      
-      stringHeroi += `${formatAttr}: ${heroi[attr]}`;
-      stringThanos += `${formatAttr}: ${thanos[attr]}`;
-      
-      if (j < atributos.length - 1) {
-          stringHeroi += ', ';
-          stringThanos += ', ';
-      }
-  }
-  stringHeroi += ')';
-  stringThanos += ')';
-  
-  console.log(stringHeroi);
-  console.log(stringThanos);
+
+  console.log('----------------------------------------------------');
+  console.log(heroi.descricao());
+  console.log('');
+  console.log(thanos.descricao());
+  console.log('');
 
   for (let j = 0; j < atributos.length; j++) {
     const attr = atributos[j];
-    const formatAttr = attr.charAt(0).toUpperCase() + attr.slice(1);
-    
+    const label = attr.charAt(0).toUpperCase() + attr.slice(1);
+
     if (heroi[attr] > thanos[attr]) {
-      console.log(`${heroi.nome} vence em ${formatAttr}!`);
+      console.log(heroi.codinome + ' vence em ' + label + '!');
     } else if (thanos[attr] > heroi[attr]) {
-      console.log(`${thanos.nome} vence em ${formatAttr}!`);
+      console.log(thanos.codinome + ' vence em ' + label + '!');
     } else {
-      console.log(`Empate em ${formatAttr}!`);
+      console.log('Empate em ' + label + '!');
     }
   }
-  
-  console.log('\n----------------------------------------------------\n');
+
+  console.log('----------------------------------------------------\n');
 }
